@@ -1,13 +1,20 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
     display: flex;
-    background-color: rgb(0, 162, 255);
-    padding: 30px;
+    background-color: #D8C3A5;
+    padding: 20px;
+    padding-right: 100px;
     justify-content: flex-end;
+    margin: 0px;
+    font-size: 18px;
+    gap: 40px;
+    color: #535350;
+    font-weight: 600;
 
 }
 
@@ -15,13 +22,20 @@ li {
     list-style-type: none;
 }
 
-.squidward {
+#squidward {
     margin-right: auto;
+    padding: 10px;
+    padding-top: 0px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #383836;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding-left: 0px;
 }
 
 .underheader {
     display: flex;
-    background-color: brown;
+    background-color: #D8C3A5;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -29,8 +43,11 @@ li {
 }
 
 
-.underheaderimg {
-    padding: 20px;
+#underheaderimg {
+    margin: 20px;
+    border: 30;
+    margin-right: 150px;
+    border-radius: 10px;
 }
 
 .underheadertext {
@@ -39,6 +56,10 @@ li {
     padding: 20px;
     align-self: first baseline;
     gap: 15px;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    max-width: 600px;
 }
 
 button {
@@ -54,28 +75,133 @@ button {
 
 .textabovebutton {
     max-width: 500px;
-    font-size: 20px;
-    color: white;
+    font-size: 21px;
+    color: #535350;
 }
 .awesome {
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 48px;
+    font-weight: 1000;
     margin-bottom: 0px;
+    color: #cc4e45;
 }
 
 
-.gallery {
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+    background-color:#EAE7DC;
+    color: #cc4e45;
+    padding-top: 35px;
+}
+
+.gallerypictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #EAE7DC;
+    height: 400px;
 
 }
 
+.imgandtext {
+    display: flex;
+    max-width: 250px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border: 5px solid black; 
+}
+
+.textunderpic {
+    font-size: 18px;
+    text-align: center;
+    color: #535350;
+}
 .quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bbbab5;
+    flex-direction: column;
+    gap: 5px;
 
+.quote2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    text-align:justify;
+    padding: 60px;
+}
+
+}
+.quotesquid {
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.quotesquid2 {
+    font-size: 22px;
+    font-weight: 700;
+    align-self: flex-end;
+    font-style: italic;
+    margin-top: 0px;
 }
 
 .signup {
-
+display: flex;
+background-color: #EAE7DC;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 
-.footer {
+.signup2{
+display: flex;
+border: 2px solid black;
+margin: 80px;
+background-color: white;
+border-radius: 10px;
+}
 
+.signup3 {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 35px 60px 35px 60px;
+gap: 60px;
+}
+
+.signuptext {
+    display: flex;
+    flex-direction: column;
+    max-width: 490px;
+}
+
+.action {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.actiontext {
+    margin-top: 5px;
+    font-size: 16px;
+}
+.footer {
+display: flex;
+justify-content: center;
+background-color: #D8C3A5;
+}
+
+.footertext {
+    font-size: 14px;
 }
